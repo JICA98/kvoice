@@ -1,4 +1,16 @@
+<p align="center">
+  <img src="assets/logo.png" width="200" alt="kvoice logo">
+</p>
+
 # kvoice 🎙️
+
+<p align="center">
+  <a href="https://github.com/JICA98/kvoice/releases"><img src="https://img.shields.io/github/v/release/JICA98/kvoice?include_prereleases&style=flat-square" alt="Release"></a>
+  <a href="https://github.com/JICA98/kvoice/blob/psycho/LICENSE"><img src="https://img.shields.io/github/license/JICA98/kvoice?style=flat-square" alt="License"></a>
+  <a href="https://github.com/JICA98/kvoice/stargazers"><img src="https://img.shields.io/github/stars/JICA98/kvoice?style=flat-square" alt="Stars"></a>
+  <a href="https://github.com/JICA98/kvoice/issues"><img src="https://img.shields.io/github/issues/JICA98/kvoice?style=flat-square" alt="Issues"></a>
+  <a href="https://github.com/JICA98/kvoice/network/members"><img src="https://img.shields.io/github/forks/JICA98/kvoice?style=flat-square" alt="Forks"></a>
+</p>
 
 A lightweight, efficient voice-to-text tool designed for KDE Plasma (Wayland/X11). It features a single-toggle recording workflow, automatic transcription via OpenAI Whisper, and direct "auto-paste" into your active application.
 
