@@ -24,14 +24,42 @@ def transcribe(audio_file):
 def main():
     if len(sys.argv) < 2:
         sys.exit(1)
+    
     audio_file = sys.argv[1]
     text = transcribe(audio_file).strip()
+    
     if text:
-        subprocess.Popen(['wl-copy'], stdin=subprocess.PIPE).communicate(input=text.encode())
-        subprocess.run(['notify-send', 'Transcription Complete', text])
+        # 1. Copy to clipboard (detect Wayland vs X11)
+        is_wayland = os.environ.get("XDG_SESSION_TYPE") == "wayland"
+        
+        try:
+            if is_wayland:
+                subprocess.Popen(['wl-copy'], stdin=subprocess.PIPE).communicate(input=text.encode())
+            else:
+                subprocess.Popen(['xclip', '-selection', 'clipboard'], stdin=subprocess.PIPE).communicate(input=text.encode())
+        except Exception as e:
+            print(f"Warning: Failed to copy to clipboard: {e}", file=sys.stderr)
+
+        # 2. Try to Paste (Type the text)
+        pasted = False
+        try:
+            if is_wayland:
+                # wtype is the standard for Wayland
+                subprocess.run(['wtype', text], check=True)
+                pasted = True
+            else:
+                # xdotool for X11
+                subprocess.run(['xdotool', 'type', '--clearmodifiers', text], check=True)
+                pasted = True
+        except Exception as e:
+            print(f"Note: Auto-paste failed (likely tool not installed or focused window incompatible): {e}", file=sys.stderr)
+
+        # 3. Notification (Simplified)
+        subprocess.run(['notify-send', 'kvoice', text])
+        
         print(text)
     else:
-        subprocess.run(['notify-send', 'Transcription Failed', 'No speech detected.'])
+        subprocess.run(['notify-send', 'kvoice', 'No speech detected.'])
 
 if __name__ == "__main__":
     main()

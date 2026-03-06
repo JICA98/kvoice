@@ -8,10 +8,10 @@ ffmpeg version n8.0.1 Copyright (c) 2000-2025 the FFmpeg developers
   libavfilter    11.  4.100 / 11.  4.100
   libswscale      9.  1.100 /  9.  1.100
   libswresample   6.  1.100 /  6.  1.100
-[aist#0:0/pcm_s16le @ 0x56201a6169c0] Guessed Channel Layout: stereo
+[aist#0:0/pcm_s16le @ 0x563b990799c0] Guessed Channel Layout: stereo
 Input #0, pulse, from 'default':
-  Duration: N/A, start: 1772822360.406991, bitrate: 1536 kb/s
-  Stream #0:0: Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s, start 1772822360.406991
+  Duration: N/A, start: 1772823332.853263, bitrate: 1536 kb/s
+  Stream #0:0: Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s, start 1772823332.853263
 Stream mapping:
   Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
 Press [q] to stop, [?] for help
@@ -21,121 +21,6 @@ Output #0, wav, to '/home/jica/repo/kvoice/kvoice.wav':
   Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s
     Metadata:
       encoder         : Lavc62.11.100 pcm_s16le
-size=      94KiB time=00:00:00.53 bitrate=1429.8kbits/s speed=1.08x elapsed=0:00:00.50    
-size=     188KiB time=00:00:01.01 bitrate=1520.0kbits/s speed=1.01x elapsed=0:00:01.00    
-size=     256KiB time=00:00:01.49 bitrate=1401.8kbits/s speed=0.997x elapsed=0:00:01.50    
-size=     256KiB time=00:00:01.94 bitrate=1079.7kbits/s speed=0.971x elapsed=0:00:02.00    
-size=     256KiB time=00:00:02.49 bitrate= 840.9kbits/s speed=0.997x elapsed=0:00:02.50    
-size=     512KiB time=00:00:02.99 bitrate=1399.0kbits/s speed=0.999x elapsed=0:00:03.00    
-size=     512KiB time=00:00:03.50 bitrate=1197.6kbits/s speed=   1x elapsed=0:00:03.50    
-size=     512KiB time=00:00:04.00 bitrate=1046.8kbits/s speed=   1x elapsed=0:00:04.00    
-size=     768KiB time=00:00:04.51 bitrate=1394.8kbits/s speed=   1x elapsed=0:00:04.50    
-size=     768KiB time=00:00:05.01 bitrate=1255.0kbits/s speed=   1x elapsed=0:00:05.00    
-size=     768KiB time=00:00:05.46 bitrate=1151.2kbits/s speed=0.993x elapsed=0:00:05.50    
-size=    1024KiB time=00:00:06.01 bitrate=1394.1kbits/s speed=   1x elapsed=0:00:06.00    
-size=    1024KiB time=00:00:06.51 bitrate=1286.9kbits/s speed=   1x elapsed=0:00:06.50    
-size=    1280KiB time=00:00:07.01 bitrate=1493.9kbits/s speed=   1x elapsed=0:00:07.00    
-size=    1280KiB time=00:00:07.51 bitrate=1394.4kbits/s speed=   1x elapsed=0:00:07.50    
-size=    1280KiB time=00:00:08.02 bitrate=1307.4kbits/s speed=   1x elapsed=0:00:08.00    
-size=    1536KiB time=00:00:08.52 bitrate=1476.7kbits/s speed=   1x elapsed=0:00:08.50    
-size=    1536KiB time=00:00:08.97 bitrate=1402.5kbits/s speed=0.997x elapsed=0:00:09.00    
-size=    1536KiB time=00:00:09.52 bitrate=1321.5kbits/s speed=   1x elapsed=0:00:09.50    
-size=    1792KiB time=00:00:10.02 bitrate=1464.7kbits/s speed=   1x elapsed=0:00:10.00    
-size=    1792KiB time=00:00:10.52 bitrate=1395.0kbits/s speed=   1x elapsed=0:00:10.50    
-size=    2048KiB time=00:00:11.02 bitrate=1522.0kbits/s speed=   1x elapsed=0:00:11.00    
-size=    2048KiB time=00:00:11.52 bitrate=1455.9kbits/s speed=   1x elapsed=0:00:11.50    
-size=    2048KiB time=00:00:12.02 bitrate=1395.3kbits/s speed=   1x elapsed=0:00:12.00    
-size=    2304KiB time=00:00:12.52 bitrate=1507.0kbits/s speed=   1x elapsed=0:00:12.50    
-size=    2304KiB time=00:00:13.02 bitrate=1449.2kbits/s speed=   1x elapsed=0:00:13.00    
-size=    2304KiB time=00:00:13.52 bitrate=1395.5kbits/s speed=   1x elapsed=0:00:13.50    
-size=    2560KiB time=00:00:14.02 bitrate=1495.3kbits/s speed=   1x elapsed=0:00:14.00    
-size=    2560KiB time=00:00:14.47 bitrate=1448.9kbits/s speed=0.998x elapsed=0:00:14.50    
-size=    2560KiB time=00:00:15.02 bitrate=1395.8kbits/s speed=   1x elapsed=0:00:15.00    
-size=    2816KiB time=00:00:15.52 bitrate=1486.0kbits/s speed=   1x elapsed=0:00:15.50    
-size=    2816KiB time=00:00:16.02 bitrate=1439.6kbits/s speed=   1x elapsed=0:00:16.00    
-size=    3072KiB time=00:00:16.52 bitrate=1522.9kbits/s speed=   1x elapsed=0:00:16.50    
-size=    3072KiB time=00:00:17.02 bitrate=1478.2kbits/s speed=   1x elapsed=0:00:17.00    
-size=    3072KiB time=00:00:17.52 bitrate=1436.0kbits/s speed=   1x elapsed=0:00:17.50    
-size=    3328KiB time=00:00:17.97 bitrate=1516.7kbits/s speed=0.998x elapsed=0:00:18.00    
-size=    3328KiB time=00:00:18.52 bitrate=1471.7kbits/s speed=   1x elapsed=0:00:18.50    
-size=    3328KiB time=00:00:19.02 bitrate=1433.0kbits/s speed=   1x elapsed=0:00:19.00    
-size=    3584KiB time=00:00:19.52 bitrate=1503.7kbits/s speed=   1x elapsed=0:00:19.50    
-size=    3584KiB time=00:00:20.02 bitrate=1466.2kbits/s speed=   1x elapsed=0:00:20.00    
-size=    3840KiB time=00:00:20.52 bitrate=1532.6kbits/s speed=   1x elapsed=0:00:20.50    
-size=    3840KiB time=00:00:21.02 bitrate=1496.1kbits/s speed=   1x elapsed=0:00:21.00    
-size=    3840KiB time=00:00:21.52 bitrate=1461.4kbits/s speed=   1x elapsed=0:00:21.50    
-size=    4096KiB time=00:00:22.02 bitrate=1523.5kbits/s speed=   1x elapsed=0:00:22.00    
-size=    4096KiB time=00:00:22.52 bitrate=1489.7kbits/s speed=   1x elapsed=0:00:22.50    
-size=    4096KiB time=00:00:23.02 bitrate=1457.3kbits/s speed=   1x elapsed=0:00:23.00    
-size=    4352KiB time=00:00:23.52 bitrate=1515.5kbits/s speed=   1x elapsed=0:00:23.50    
-size=    4352KiB time=00:00:24.02 bitrate=1484.0kbits/s speed=   1x elapsed=0:00:24.00    
-size=    4352KiB time=00:00:24.52 bitrate=1453.7kbits/s speed=   1x elapsed=0:00:24.50    
-size=    4608KiB time=00:00:25.02 bitrate=1508.5kbits/s speed=   1x elapsed=0:00:25.00    
-size=    4608KiB time=00:00:25.52 bitrate=1478.9kbits/s speed=   1x elapsed=0:00:25.50    
-size=    4864KiB time=00:00:26.02 bitrate=1531.1kbits/s speed=   1x elapsed=0:00:26.00    
-size=    4864KiB time=00:00:26.52 bitrate=1502.2kbits/s speed=   1x elapsed=0:00:26.50    
-size=    4864KiB time=00:00:27.02 bitrate=1474.4kbits/s speed=   1x elapsed=0:00:27.00    
-size=    5120KiB time=00:00:27.52 bitrate=1523.8kbits/s speed=   1x elapsed=0:00:27.50    
-size=    5120KiB time=00:00:28.02 bitrate=1496.6kbits/s speed=   1x elapsed=0:00:28.00    
-size=    5120KiB time=00:00:28.52 bitrate=1470.4kbits/s speed=   1x elapsed=0:00:28.50    
-size=    5376KiB time=00:00:29.02 bitrate=1517.3kbits/s speed=   1x elapsed=0:00:29.00    
-size=    5376KiB time=00:00:29.52 bitrate=1491.6kbits/s speed=   1x elapsed=0:00:29.50    
-size=    5376KiB time=00:00:30.02 bitrate=1466.7kbits/s speed=   1x elapsed=0:00:30.00    
-size=    5632KiB time=00:00:30.52 bitrate=1511.4kbits/s speed=   1x elapsed=0:00:30.50    
-size=    5632KiB time=00:00:31.02 bitrate=1487.1kbits/s speed=   1x elapsed=0:00:31.00    
-size=    5888KiB time=00:00:31.52 bitrate=1530.0kbits/s speed=   1x elapsed=0:00:31.50    
-size=    5888KiB time=00:00:32.02 bitrate=1506.2kbits/s speed=   1x elapsed=0:00:32.00    
-size=    5888KiB time=00:00:32.52 bitrate=1483.0kbits/s speed=   1x elapsed=0:00:32.50    
-size=    6144KiB time=00:00:33.02 bitrate=1524.1kbits/s speed=   1x elapsed=0:00:33.00    
-size=    6144KiB time=00:00:33.52 bitrate=1501.3kbits/s speed=   1x elapsed=0:00:33.50    
-size=    6144KiB time=00:00:34.02 bitrate=1479.3kbits/s speed=   1x elapsed=0:00:34.00    
-size=    6400KiB time=00:00:34.52 bitrate=1518.6kbits/s speed=   1x elapsed=0:00:34.50    
-size=    6400KiB time=00:00:35.02 bitrate=1496.9kbits/s speed=   1x elapsed=0:00:35.00    
-size=    6656KiB time=00:00:35.52 bitrate=1534.9kbits/s speed=   1x elapsed=0:00:35.50    
-size=    6656KiB time=00:00:36.02 bitrate=1513.5kbits/s speed=   1x elapsed=0:00:36.00    
-size=    6656KiB time=00:00:36.52 bitrate=1492.8kbits/s speed=   1x elapsed=0:00:36.50    
-size=    6912KiB time=00:00:37.02 bitrate=1529.3kbits/s speed=   1x elapsed=0:00:37.00    
-size=    6912KiB time=00:00:37.52 bitrate=1508.9kbits/s speed=   1x elapsed=0:00:37.50    
-size=    6912KiB time=00:00:38.02 bitrate=1489.1kbits/s speed=   1x elapsed=0:00:38.00    
-size=    7168KiB time=00:00:38.52 bitrate=1524.2kbits/s speed=   1x elapsed=0:00:38.50    
-size=    7168KiB time=00:00:39.02 bitrate=1504.6kbits/s speed=   1x elapsed=0:00:39.00    
-size=    7168KiB time=00:00:39.52 bitrate=1485.6kbits/s speed=   1x elapsed=0:00:39.50    
-size=    7424KiB time=00:00:40.02 bitrate=1519.5kbits/s speed=   1x elapsed=0:00:40.00    
-size=    7424KiB time=00:00:40.52 bitrate=1500.7kbits/s speed=   1x elapsed=0:00:40.50    
-size=    7680KiB time=00:00:41.02 bitrate=1533.6kbits/s speed=   1x elapsed=0:00:41.00    
-size=    7680KiB time=00:00:41.52 bitrate=1515.1kbits/s speed=   1x elapsed=0:00:41.50    
-size=    7680KiB time=00:00:42.02 bitrate=1497.1kbits/s speed=   1x elapsed=0:00:42.00    
-size=    7936KiB time=00:00:42.52 bitrate=1528.8kbits/s speed=   1x elapsed=0:00:42.50    
-size=    7936KiB time=00:00:43.02 bitrate=1511.0kbits/s speed=   1x elapsed=0:00:43.00    
-size=    7936KiB time=00:00:43.52 bitrate=1493.7kbits/s speed=   1x elapsed=0:00:43.50    
-size=    8192KiB time=00:00:44.02 bitrate=1524.3kbits/s speed=   1x elapsed=0:00:44.00    
-size=    8192KiB time=00:00:44.52 bitrate=1507.2kbits/s speed=   1x elapsed=0:00:44.51    
-size=    8192KiB time=00:00:45.02 bitrate=1490.4kbits/s speed=   1x elapsed=0:00:45.01    
-size=    8448KiB time=00:00:45.52 bitrate=1520.1kbits/s speed=   1x elapsed=0:00:45.51    
-size=    8448KiB time=00:00:46.02 bitrate=1503.6kbits/s speed=   1x elapsed=0:00:46.01    
-size=    8704KiB time=00:00:46.52 bitrate=1532.5kbits/s speed=   1x elapsed=0:00:46.51    
-size=    8704KiB time=00:00:47.02 bitrate=1516.3kbits/s speed=   1x elapsed=0:00:47.01    
-size=    8704KiB time=00:00:47.52 bitrate=1500.3kbits/s speed=   1x elapsed=0:00:47.51    
-size=    8960KiB time=00:00:48.02 bitrate=1528.3kbits/s speed=   1x elapsed=0:00:48.01    
-size=    8960KiB time=00:00:48.52 bitrate=1512.6kbits/s speed=   1x elapsed=0:00:48.51    
-size=    8960KiB time=00:00:49.02 bitrate=1497.2kbits/s speed=   1x elapsed=0:00:49.01    
-size=    9216KiB time=00:00:49.52 bitrate=1524.4kbits/s speed=   1x elapsed=0:00:49.51    
-size=    9216KiB time=00:00:50.02 bitrate=1509.2kbits/s speed=   1x elapsed=0:00:50.01    
-size=    9216KiB time=00:00:50.52 bitrate=1494.3kbits/s speed=   1x elapsed=0:00:50.51    
-size=    9472KiB time=00:00:51.02 bitrate=1520.7kbits/s speed=   1x elapsed=0:00:51.01    
-size=    9472KiB time=00:00:51.52 bitrate=1506.0kbits/s speed=   1x elapsed=0:00:51.51    
-size=    9728KiB time=00:00:52.02 bitrate=1531.8kbits/s speed=   1x elapsed=0:00:52.01    
-size=    9728KiB time=00:00:52.52 bitrate=1517.2kbits/s speed=   1x elapsed=0:00:52.51    
-size=    9728KiB time=00:00:53.02 bitrate=1502.9kbits/s speed=   1x elapsed=0:00:53.01    
-size=    9984KiB time=00:00:53.52 bitrate=1528.0kbits/s speed=   1x elapsed=0:00:53.51    
-size=    9984KiB time=00:00:54.02 bitrate=1513.9kbits/s speed=   1x elapsed=0:00:54.01    
-size=    9984KiB time=00:00:54.52 bitrate=1500.0kbits/s speed=   1x elapsed=0:00:54.51    
-size=   10240KiB time=00:00:55.02 bitrate=1524.5kbits/s speed=   1x elapsed=0:00:55.01    
-size=   10240KiB time=00:00:55.52 bitrate=1510.7kbits/s speed=   1x elapsed=0:00:55.51    
-size=   10496KiB time=00:00:56.02 bitrate=1534.7kbits/s speed=   1x elapsed=0:00:56.01    
-size=   10496KiB time=00:00:56.52 bitrate=1521.1kbits/s speed=   1x elapsed=0:00:56.51    
-size=   10496KiB time=00:00:57.02 bitrate=1507.8kbits/s speed=   1x elapsed=0:00:57.01    
-size=   10752KiB time=00:00:57.52 bitrate=1531.1kbits/s speed=   1x elapsed=0:00:57.51    
-size=   10752KiB time=00:00:58.02 bitrate=1517.9kbits/s speed=   1x elapsed=0:00:58.01    
-size=   10752KiB time=00:00:58.52 bitrate=1505.0kbits/s speed=   1x elapsed=0:00:58.51    
-size=   11008KiB time=00:00:59.02 bitrate=1527.size=   11008KiB time=00:01:00.02 bitrate=1502.3kbits/s speed=   1x elapsed=0:01:00.01    size=   11264KiB time=00:01:00.52 bitrate=1524.6kbits/s speed=   1x elapsed=0:01:00.51    size=   11264KiB time=00:01:01.02 bitrate=1512.1kbits/s speed=   1x elapsed=0:01:01.01    size=   11520KiB time=00:01:01.52 bitrate=1533.9kbits/s speed=   1x elapsed=0:01:01.51    size=   11520KiB time=00:01:02.02 bitrate=1521.5kbits/s speed=   1x elapsed=0:01:02.01    size=   11520KiB time=00:01:02.52 bitrate=1509.3kbits/s speed=   1x elapsed=0:01:02.51    size=   11776KiB time=00:01:03.02 bitrate=1530.6kbits/s speed=   1x elapsed=0:01:03.01    size=   11776KiB time=00:01:03.52 bitrate=1518.6kbits/s speed=   1x elapsed=0:01:03.51    size=   11776KiB time=00:01:04.02 bitrate=1506.7kbits/s speed=   1x elapsed=0:01:04.01    size=   12032KiB time=00:01:04.52 bitrate=1527.5kbits/s speed=   1x elapsed=0:01:04.51    size=   12032KiB time=00:01:05.02 bitrate=1515.8kbits/s speed=   1x elapsed=0:01:05.01    size=   12032KiB time=00:01:05.52 bitrate=1504.2kbits/s speed=   1x elapsed=0:01:05.51    size=   12288KiB time=00:01:06.02 bitrate=1524.6kbits/s speed=   1x elapsed=0:01:06.01    size=   12288KiB time=00:01:06.52 bitrate=1513.1kbits/s speed=   1x elapsed=0:01:06.51    size=   12544KiB time=00:01:07.02 bitrate=1533.1kbits/s speed=   1x elapsed=0:01:07.01    size=   12544KiB time=00:01:07.52 bitrate=1521.8kbits/s speed=   1x elapsed=0:01:07.51    size=   12544KiB time=00:01:08.02 bitrate=1510.6kbits/s speed=   1x elapsed=0:01:08.01    size=   12800KiB time=00:01:08.52 bitrate=1530.2kbits/s speed=   1x elapsed=0:01:08.51    size=   12800KiB time=00:01:09.02 bitrate=1519.1kbits/s speed=   1x elapsed=0:01:09.01    size=   12800KiB time=00:01:09.52 bitrate=1508.2kbits/s speed=   1x elapsed=0:01:09.51    size=   13056KiB time=00:01:10.02 bitrate=1527.4kbits/s speed=   1x elapsed=0:01:10.01    size=   13056KiB time=00:01:10.52 bitrate=1516.5kbits/s speed=   1x elapsed=0:01:10.51    size=   13312KiB time=00:01:11.02 bitrate=1535.4kbits/s speed=   1x elapsed=0:01:11.01    size=   13312KiB time=00:01:11.52 bitrate=1524.6kbits/s speed=   1x elapsed=0:01:11.51    size=   13312KiB time=00:01:12.02 bitrate=1514.1kbits/s speed=   1x elapsed=0:01:12.01    size=   13568KiB time=00:01:12.52 bitrate=1532.5kbits/s speed=   1x elapsed=0:01:12.51    size=   13568KiB time=00:01:13.02 bitrate=1522.0kbits/s speed=   1x elapsed=0:01:13.01    size=   13568KiB time=00:01:13.57 bitrate=1510.6kbits/s speed=   1x elapsed=0:01:13.51    size=   13824KiB time=00:01:14.02 bitrate=1529.8kbits/s speed=   1x elapsed=0:01:14.01    size=   13824KiB time=00:01:14.52 bitrate=1519.5kbits/s speed=   1x elapsed=0:01:14.51    size=   13824KiB time=00:01:15.02 bitrate=1509.4kbits/s speed=   1x elapsed=0:01:15.01    size=   14080KiB time=00:01:15.52 bitrate=1527.2kbits/s speed=   1x elapsed=0:01:15.51    size=   14080KiB time=00:01:16.02 bitrate=1517.1kbits/s speed=   1x elapsed=0:01:16.01    size=   14336KiB time=00:01:16.52 bitrate=1534.6kbits/s speed=   1x elapsed=0:01:16.51    size=   14336KiB time=00:01:17.02 bitrate=1524.7kbits/s speed=   1x elapsed=0:01:17.01    size=   14336KiB time=00:01:17.52 bitrate=1514.9kbits/s speed=   1x elapsed=0:01:17.51    size=   14592KiB time=00:01:18.02 bitrate=1532.0kbits/s speed=   1x elapsed=0:01:18.01    size=   14592KiB time=00:01:18.52 bitrate=1522.3kbits/s speed=   1x elapsed=0:01:18.51    size=   14592KiB time=00:01:19.02 bitrate=1512.6kbits/s speed=   1x elapsed=0:01:19.01    size=   14848KiB time=00:01:19.52 bitrate=1529.5kbits/s speed=   1x elapsed=0:01:19.51    size=   14848KiB time=00:01:20.02 bitrate=1519.9kbits/s speed=   1x elapsed=0:01:20.01    size=   14848KiB time=00:01:20.52 bitrate=1510.5kbits/s speed=   1x elapsed=0:01:20.51    size=   15104KiB time=00:01:21.02 bitrate=1527.0kbits/s speed=   1x elapsed=0:01:21.01    size=   15104KiB time=00:01:21.52 bitrate=1517.7kbits/s speed=   1x elapsed=0:01:21.51    size=   15360KiB time=00:01:22.02 bitrate=1534.0kbits/s speed=   1x elapsed=0:01:22.01    size=   15360KiB time=00:01:22.52 bitrate=1524.7kbits/s speed=   1x elapsed=0:01:22.51    size=   15360KiB time=00:01:23.02 bitrate=1515.5kbits/s speed=   1x elapsed=0:01:23.01    size=   15616KiB time=00:01:23.52 bitrate=1531.6kbits/s speed=   1x elapsed=0:01:23.51    size=   15616KiB time=00:01:24.02 bitrate=1522.4kbits/s speed=   1x elapsed=0:01:24.01    size=   15616KiB time=00:01:24.52 bitrate=1513.4kbits/s speed=   1x elapsed=0:01:24.51    size=   15872KiB time=00:01:25.02 bitrate=1529.2kbits/s speed=   1x elapsed=0:01:25.01    size=   15872KiB time=00:01:25.52 bitrate=1520.3kbits/s speed=   1x elapsed=0:01:25.51    size=   16128KiB time=00:01:26.07 bitrate=1534.9kbits/s speed=   1x elapsed=0:01:26.01    size=   16128KiB time=00:01:26.52 bitrate=1526.9kbits/s speed=   1x elapsed=0:01:26.51    size=   16128KiB time=00:01:27.02 bitrate=1518.2kbits/s speed=   1x elapsed=0:01:27.01    size=   16384KiB time=00:01:27.52 bitrate=1533.5kbits/s speed=   1x elapsed=0:01:27.51    size=   16384KiB time=00:01:28.02 bitrate=1524.7kbits/s speed=   1x elapsed=0:01:28.01    size=   16384KiB time=00:01:28.52 bitrate=1516.1kbits/s speed=   1x elapsed=0:01:28.51    size=   16640KiB time=00:01:29.02 bitrate=1531.2kbits/s speed=   1x elapsed=0:01:29.01    size=   16640KiB time=00:01:29.57 bitrate=1521.8kbits/s speed=   1x elapsed=0:01:29.52    size=   16640KiB time=00:01:30.02 bitrate=1514.2kbits/s speed=   1x elapsed=0:01:30.02    size=   16896KiB time=00:01:30.52 bitrate=1529.0kbits/s speed=   1x elapsed=0:01:30.52    size=   16896KiB time=00:01:31.02 bitrate=1520.6kbits/s speed=   1x elapsed=0:01:31.02    size=   17152KiB time=00:01:31.52 bitrate=1535.2kbits/s speed=   1x elapsed=0:01:31.52    size=   17152KiB time=00:01:32.02 bitrate=1526.8kbits/s speed=   1x elapsed=0:01:32.02    size=   17152KiB time=00:01:32.52 bitrate=1518.6kbits/s speed=   1x elapsed=0:01:32.52    size=   17408KiB time=00:01:33.02 bitrate=1533.0kbits/s speed=   1x elapsed=0:01:33.02    size=   17408KiB time=00:01:33.52 bitrate=1524.8kbits/s speed=   1x elapsed=0:01:33.52    size=   17408KiB time=00:01:34.02 bitrate=1516.7kbits/s speed=   1x elapsed=0:01:34.02    size=   17664KiB time=00:01:34.52 bitrate=1530.8kbits/s speed=   1x elapsed=0:01:34.52    size=   17664KiB time=00:01:35.07 bitrate=1522.0kbits/s speed=   1x elapsed=0:01:35.02    size=   17664KiB time=00:01:35.52 bitrate=1514.8kbits/s speed=   1x elapsed=0:01:35.52    size=   17920KiB time=00:01:36.02 bitrate=1528.7kbits/s speed=   1x elapsed=0:01:36.02    size=   17920KiB time=00:01:36.52 bitrate=1520.8kbits/s speed=   1x elapsed=0:01:36.52    size=   18176KiB time=00:01:37.02 bitrate=1534.6kbits/s speed=   1x elapsed=0:01:37.02    size=   18176KiB time=00:01:37.52 bitrate=1526.7kbits/s speed=   1x elapsed=0:01:37.52    size=   18176KiB time=00:01:38.02 bitrate=1518.9kbits/s speed=   1x elapsed=0:01:38.02    size=   18432KiB time=00:01:38.57 bitrate=1531.7kbits/s speed=   1x elapsed=0:01:38.52    size=   18432KiB time=00:01:39.02 bitrate=1524.8kbits/s speed=   1x elapsed=0:01:39.02    size=   18432KiB time=00:01:39.52 bitrate=1517.1kbits/s speed=   1x elapsed=0:01:39.52    size=   18688KiB time=00:01:40.02 bitrate=1530.5kbits/s speed=   1x elapsed=0:01:40.02    size=   18688KiB time=00:01:40.52 bitrate=1522.9kbits/s speed=   1x elapsed=0:01:40.52    size=   18688KiB time=00:01:41.02 bitrate=1515.3kbits/s speed=   1x elapsed=0:01:41.02    size=   18944KiB time=00:01:41.52 bitrate=1528.5kbits/s speed=   1x elapsed=0:01:41.52    size=   18944KiB time=00:01:42.07 bitrate=1520.3kbits/s speed=   1x elapsed=0:01:42.02    size=   19200KiB time=00:01:42.52 bitrate=1534.1kbits/s speed=   1x elapsed=0:01:42.52    size=   19200KiB time=00:01:43.02 bitrate=1526.7kbits/s speed=   1x elapsed=0:01:43.02    size=   19200KiB time=00:01:43.52 bitrate=1519.3kbits/s speed=   1x elapsed=0:01:43.52    size=   19456KiB time=00:01:44.02 bitrate=1532.1kbits/s speed=   1x elapsed=0:01:44.02    size=   19456KiB time=00:01:44.52 bitrate=1524.8kbits/s speed=   1x elapsed=0:01:44.52    size=   19456KiB time=00:01:45.02 bitrate=1517.5kbits/s speed=   1x elapsed=0:01:45.02    size=   19712KiB time=00:01:45.57 bitrate=1529.5kbits/s speed=   1x elapsed=0:01:45.52    size=   19712KiB time=00:01:46.02 bitrate=1523.0kbits/s speed=   1x elapsed=0:01:46.02    size=   19968KiB time=00:01:46.52 bitrate=1535.5kbits/s speed=   1x elapsed=0:01:46.52    size=   19968KiB time=00:01:47.02 bitrate=1528.4kbits/s speed=   1x elapsed=0:01:47.02    size=   19968KiB time=00:01:47.57 bitrate=1520.6kbits/s speed=   1x elapsed=0:01:47.52    size=   20224KiB time=00:01:48.02 bitrate=1533.6kbits/s speed=   1x elapsed=0:01:48.02    size=   20224KiB time=00:01:48.52 bitrate=1526.6kbits/s speed=   1x elapsed=0:01:48.52    size=   20224KiB time=00:01:49.02 bitrate=1519.6kbits/s speed=   1x elapsed=0:01:49.02    size=   20480KiB time=00:01:49.52 bitrate=1531.8kbits/s speed=   1x elapsed=0:01:49.52    size=   20480KiB time=00:01:50.02 bitrate=1524.8kbits/s speed=   1x elapsed=0:01:50.02    size=   20480KiB time=00:01:50.52 bitrate=1517.9kbits/s speed=   1x elapsed=0:01:50.52    size=   20736KiB time=00:01:51.07 bitrate=1529.3kbits/s speed=   1x elapsed=0:01:51.02    size=   20736KiB time=00:01:51.52 bitrate=1523.1kbits/s speed=   1x elapsed=0:01:51.52    size=   20992KiB time=00:01:52.02 bitrate=1535.0kbits/s speed=   1x elapsed=0:01:52.02    size=   20992KiB time=00:01:52.52 bitrate=1528.2kbits/s speed=   1x elapsed=0:01:52.52    size=   20992KiB time=00:01:53.02 bitrate=1521.5kbits/s speed=   1x elapsed=0:01:53.02    size=   21248KiB time=00:01:53.52 bitrate=1533.2kbits/s speed=   1x elapsed=0:01:53.52    size=   21248KiB time=00:01:54.02 bitrate=1526.5kbits/s speed=   1x elapsed=0:01:54.02    size=   21248KiB time=00:01:54.57 bitrate=1519.2kbits/s speed=   1x elapsed=0:01:54.52    size=   21504KiB time=00:01:55.02 bitrate=1531.5kbits/s speed=   1x elapsed=0:01:55.02    size=   21504KiB time=00:01:55.52 bitrate=1524.8kbits/s speed=   1x elapsed=0:01:55.52    size=   21504KiB time=00:01:56.02 bitrate=1518.3kbits/s speed=   1x elapsed=0:01:56.02    size=   21760KiB time=00:01:56.57 bitrate=1529.1kbits/s speed=   1x elapsed=0:01:56.52    size=   21760KiB time=00:01:57.02 bitrate=1523.2kbits/s speed=   1x elapsed=0:01:57.02    size=   22016KiB time=00:01:57.52 bitrate=1534.6kbits/s speed=   1x elapsed=0:01:57.52    size=   22016KiB time=00:01:58.07 bitrate=1527.4kbits/s speed=   1x elapsed=0:01:58.02    size=   22016KiB time=00:01:58.52 bitrate=1521.6kbits/s speed=   1x elapsed=0:01:58.52    size=   22272KiB time=00:01:59.02 bitrate=1532.8kbits/s speed=   1x elapsed=0:01:59.02    
+size=      94KiB time=00:00:00.53 bitrate=1430.1kbits/s speed=1.07x elapsed=0:00:00.50    size=     188KiB time=00:00:01.01 bitrate=1520.5kbits/s speed=1.01x elapsed=0:00:01.00    size=     256KiB time=00:00:01.49 bitrate=1402.2kbits/s speed=0.997x elapsed=0:00:01.50    size=     256KiB time=00:00:01.94 bitrate=1079.9kbits/s speed=0.971x elapsed=0:00:02.00    size=     256KiB time=00:00:02.49 bitrate= 840.9kbits/s speed=0.997x elapsed=0:00:02.50    size=     512KiB time=00:00:02.99 bitrate=1399.1kbits/s speed=0.999x elapsed=0:00:03.00    size=     512KiB time=00:00:03.50 bitrate=1197.6kbits/s speed=   1x elapsed=0:00:03.50    size=     512KiB time=00:00:04.00 bitrate=1046.9kbits/s speed=   1x elapsed=0:00:04.00    [out#0/wav @ 0x563b99079bc0] video:0KiB audio:853KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.008929%
+size=     853KiB time=00:00:04.51 bitrate=1549.6kbits/s speed=0.997x elapsed=0:00:04.52    
+Exiting normally, received signal 15.
