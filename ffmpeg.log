@@ -8,10 +8,10 @@ ffmpeg version n8.0.1 Copyright (c) 2000-2025 the FFmpeg developers
   libavfilter    11.  4.100 / 11.  4.100
   libswscale      9.  1.100 /  9.  1.100
   libswresample   6.  1.100 /  6.  1.100
-[aist#0:0/pcm_s16le @ 0x563b990799c0] Guessed Channel Layout: stereo
+[aist#0:0/pcm_s16le @ 0x56007174f9c0] Guessed Channel Layout: stereo
 Input #0, pulse, from 'default':
-  Duration: N/A, start: 1772823332.853263, bitrate: 1536 kb/s
-  Stream #0:0: Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s, start 1772823332.853263
+  Duration: N/A, start: 1772823565.526367, bitrate: 1536 kb/s
+  Stream #0:0: Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s, start 1772823565.526367
 Stream mapping:
   Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
 Press [q] to stop, [?] for help
@@ -21,6 +21,6 @@ Output #0, wav, to '/home/jica/repo/kvoice/kvoice.wav':
   Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s16, 1536 kb/s
     Metadata:
       encoder         : Lavc62.11.100 pcm_s16le
-size=      94KiB time=00:00:00.53 bitrate=1430.1kbits/s speed=1.07x elapsed=0:00:00.50    size=     188KiB time=00:00:01.01 bitrate=1520.5kbits/s speed=1.01x elapsed=0:00:01.00    size=     256KiB time=00:00:01.49 bitrate=1402.2kbits/s speed=0.997x elapsed=0:00:01.50    size=     256KiB time=00:00:01.94 bitrate=1079.9kbits/s speed=0.971x elapsed=0:00:02.00    size=     256KiB time=00:00:02.49 bitrate= 840.9kbits/s speed=0.997x elapsed=0:00:02.50    size=     512KiB time=00:00:02.99 bitrate=1399.1kbits/s speed=0.999x elapsed=0:00:03.00    size=     512KiB time=00:00:03.50 bitrate=1197.6kbits/s speed=   1x elapsed=0:00:03.50    size=     512KiB time=00:00:04.00 bitrate=1046.9kbits/s speed=   1x elapsed=0:00:04.00    [out#0/wav @ 0x563b99079bc0] video:0KiB audio:853KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.008929%
-size=     853KiB time=00:00:04.51 bitrate=1549.6kbits/s speed=0.997x elapsed=0:00:04.52    
+size=      94KiB time=00:00:00.53 bitrate=1430.2kbits/s speed=1.07x elapsed=0:00:00.50    size=     188KiB time=00:00:01.01 bitrate=1520.7kbits/s speed=1.01x elapsed=0:00:01.00    size=     256KiB time=00:00:01.49 bitrate=1402.3kbits/s speed=0.997x elapsed=0:00:01.50    size=     256KiB time=00:00:01.94 bitrate=1080.0kbits/s speed=0.971x elapsed=0:00:02.00    size=     256KiB time=00:00:02.49 bitrate= 841.0kbits/s speed=0.997x elapsed=0:00:02.50    size=     512KiB time=00:00:02.99 bitrate=1399.2kbits/s speed=0.999x elapsed=0:00:03.00    size=     512KiB time=00:00:03.50 bitrate=1197.6kbits/s speed=   1x elapsed=0:00:03.50    size=     512KiB time=00:00:04.00 bitrate=1046.9kbits/s speed=   1x elapsed=0:00:04.00    size=     768KiB time=00:00:04.51 bitrate=1394.9kbits/s speed=   1x elapsed=0:00:04.50    size=     768KiB time=00:00:05.01 bitrate=1255.1kbits/s speed=   1x elapsed=0:00:05.00    [out#0/wav @ 0x56007174fbc0] video:0KiB audio:1031KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.007386%
+size=    1031KiB time=00:00:05.46 bitrate=1545.9kbits/s speed=0.993x elapsed=0:00:05.50    
 Exiting normally, received signal 15.

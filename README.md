@@ -22,32 +22,39 @@ A lightweight, efficient voice-to-text tool designed for KDE Plasma (Wayland/X11
 - **Smart Cleanup**: Automatically removes temporary audio files and stale lockfiles.
 - **Isolated Environment**: Uses a local Python virtual environment to keep your system clean.
 - **Hybrid Transcription**: Supports both OpenAI's Cloud API (fastest) and local Whisper models (offline/private).
+- **Cross-Platform**: Native support for **Linux (KDE/GNOME/Hyprland)** and **Windows (PowerShell)**.
 
 ## 🚀 Quick Start
 
-### 1. Installation
-Clone the repository and run the setup script:
-```bash
-git clone https://github.com/JICA98/kvoice.git
-cd kvoice
-./setup.sh
-```
-The setup script will:
-- Install system dependencies (`ffmpeg`, `wtype`, `xdotool`, `wl-clipboard`, etc.).
-- Create a `.venv` and install Python libraries.
-- Set executable permissions for all scripts.
-
-### 2. Configure KDE Shortcut
-1. Open **System Settings** -> **Shortcuts** -> **Commands**.
-2. Click **+ Add New**.
-3. Name it `kvoice` and set the command to:
+### Linux (Wayland/X11)
+Includes specific support for KDE, GNOME, and Hyperland (via `wtype`).
+1. Clone the repository and run the setup script:
    ```bash
-   /path/to/kvoice/kvoice.sh
+   ./setup.sh
    ```
-4. Assign a shortcut (e.g., `Meta+V`).
+2. Assign a shortcut to `/path/to/kvoice/kvoice.sh`.
+
+### Windows 🪟
+1. Ensure `ffmpeg` is installed (e.g., `winget install ffmpeg`).
+2. Run the setup script in PowerShell:
+   ```powershell
+   powershell.exe -ExecutionPolicy Bypass -File .\setup.ps1
+   ```
+3. Assign a global shortcut (using tools like **AutoHotkey** or **PowerToys Run**) to:
+   ```powershell
+   powershell.exe -ExecutionPolicy Bypass -File C:\path\to\kvoice\kvoice.ps1
+   ```
+
+## 🛠️ Platform Specifics
+
+| Platform | Tooling Used | Notes |
+| :--- | :--- | :--- |
+| **KDE/GNOME** | `notify-send`, `wtype`/`xdotool`, `wl-copy`/`xclip` | Standard Linux behavior. |
+| **Hyprland** | `wtype`, `wl-clipboard` | Ensure `wtype` is installed for auto-paste. |
+| **Windows** | `PowerShell`, `pyautogui`, `clip` | Uses PowerShell for notifications and `pyautogui` for typing. |
 
 ### 3. (Optional) OpenAI API Key
-For the best speed, set your OpenAI API key in your environment (e.g., in `.bashrc` or `.zshrc`):
+For the best speed, set your OpenAI API key in your environment (e.g., in `.bashrc` or `.zshrc` on Linux, or System Environment Variables on Windows):
 ```bash
 export OPENAI_API_KEY='your-key-here'
 ```
@@ -55,8 +62,8 @@ If not set, it will automatically fall back to the local **Whisper "base" model*
 
 ## 🛠️ Architecture
 
-- `kvoice.sh`: Bash wrapper that manages state via `kvoice.lock` and coordinates `ffmpeg` for recording.
-- `transcribe.py`: Python script that handles core transcription logic and UI interaction (pasting/notifications).
+- `kvoice.sh` / `kvoice.ps1`: Platform-specific wrappers that manage state and coordinate `ffmpeg` for recording.
+- `transcribe.py`: Cross-platform Python script that handles core transcription logic and UI interaction (pasting/notifications).
 - `.venv/`: Dedicated environment for all Python dependencies.
 
 ## 📝 Dependencies
