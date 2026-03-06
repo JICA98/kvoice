@@ -30,7 +30,7 @@ The setup script will:
 2. Click **+ Add New**.
 3. Name it `kvoice` and set the command to:
    ```bash
-   /home/jica/repo/kvoice/kvoice.sh
+   /path/to/kvoice/kvoice.sh
    ```
 4. Assign a shortcut (e.g., `Meta+V`).
 
